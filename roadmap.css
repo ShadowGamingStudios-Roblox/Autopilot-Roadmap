@@ -14,7 +14,7 @@ body {
 }
 
 #background {
-  background-image: url('https://static.mobileye.com/website/us/corporate/post/images/14074d9035b1e878b1e00150b127e114_1598166368222.jpg');
+  background-image: url('nebula.jpg');
   background-attachment: fixed;
   background-size: cover;
   width: calc(100% - 40px);
