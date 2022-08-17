@@ -14,7 +14,7 @@ body {
 }
 
 #background {
-  background-image: url('nebula.jpg');
+  background-image: url('logo.jpg');
   background-attachment: fixed;
   background-size: cover;
   width: calc(100% - 40px);
