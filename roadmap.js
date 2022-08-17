@@ -57,6 +57,16 @@ const LONG_TERM = [
     status: IN_PROGRESS
   },
   {
+    title: 'Model Y',
+    description: 'Model Y has been delayed.',
+    status: DELAYED
+  },
+  {
+    title: 'Auto Lane Change',
+    description: 'Lets the car automatically change lanes at a push of a button.',
+    status: DELAYED
+  },
+  {
     title: 'City Map',
     description: 'Will be adding a city for players to explore.',
   },
@@ -81,7 +91,7 @@ const LONG_TERM = [
     description: 'Will let user punch in an address, and the GPS will automatically plot the fastest route.',
   },
   {
-    title: 'Navigation on Autopilot',
+    title: 'Navigate on Autopilot',
     description: 'Lets the car follow the navigation route on Autopilot.',
   },
   {
@@ -95,16 +105,6 @@ const LONG_TERM = [
   {
     title: 'Full Self-Driving',
     description: 'Will let the car drive on city streets and complicated roads. Additionaly, it will be able to stop at traffic signs and traffic lights.',
-  },
-  {
-    title: 'Model Y',
-    description: 'Model Y has been delayed.',
-    status: DELAYED
-  },
-  {
-    title: 'Auto Lane Change',
-    description: 'Lets the car automatically change lanes at a push of a button.',
-    status: DELAYED
   }
 ];
 
