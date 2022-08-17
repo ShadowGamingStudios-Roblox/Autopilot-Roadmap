@@ -14,111 +14,97 @@ const STATUS_NAMES = {
 
 const PRE_RELEASE = [
   {
-    title: 'Permissions',
-    description: 'A role that can let other people, besides members with administration permission, update the scores.',
+    title: 'Basic Autopilot',
+    description: 'Adaptive Cruise Control and AutoSteer lets the car manage the speed and keeps itself inside the lane, respectively.',
     status: DEPLOYED
   },
   {
-    title: 'Help Command',
-    description: 'A command that helps you configure the bot.',
+    title: 'Collision Avoidance',
+    description: 'The car will automatically steer or brake away from a possible collision.',
     status: DEPLOYED
   },
   {
-    title: 'Settings',
-    description: 'Gives you options to configure the tables.',
+    title: 'Model S',
+    description: 'Model S has been added.',
     status: DEPLOYED
   },
   {
-    title: 'Formats',
-    description: 'Lets you change the table into different formats besides the default format.',
+    title: 'Model X',
+    description: 'Model X has been added.',
     status: DEPLOYED
   },
   {
-    title: 'Specific Commands',
-    description: 'Shows you specific players or players that has that specific role.',
+    title: 'Model 3',
+    description: 'Model 3 has been added.',
     status: DEPLOYED
   },
   {
-    title: 'Change Prefix',
-    description: 'Lets you change the bot prefix.',
-    status: DEPLOYED
-  },
-  {
-    title: 'Bot Icon',
-    description: 'Updated the bot icon.',
+    title: 'Cybertruck',
+    description: 'Cybertruck has been added.',
     status: DEPLOYED
   }
 ];
 
 const LONG_TERM = [
   {
-    title: 'Arrow Emojis',
-    description: 'Arrow emojis that let you flip pages without running another command.',
-    status: NEXT
+    title: 'Adjustable Speed',
+    description: 'Will let drivers control the speed of which the car travels at.',
+    status: IN_PROGRESS
   },
   {
-    title: 'Live Update',
-    description: 'The chart will be updated live.',
-    status: NEXT
+    title: 'Roadster',
+    description: 'Roadster is in progress.',
+    status: IN_PROGRESS
   },
   {
-    title: 'Headers',
-    description: 'Lets you change the headers.',
-    status: NEXT
+    title: 'City Map',
+    description: 'Will be adding a city for players to explore.',
   },
   {
-    title: 'Default Points',
-    description: 'Lets you set the default point whenever a new member is added.',
-    status: NEXT
+    title: 'Road GUI',
+    description: 'The car will automatically visualize the road and show it on a UI.',
   },
   {
-    title: 'Rename Scoreboards',
-    description: 'Lets you rename a current scoreboard.',
-    status: NEXT
+    title: 'Active Steering Wheel',
+    description: 'The Steering Wheel will move based upon the wheels trajectory.',
   },
   {
-    title: 'Columns',
-    description: 'Lets you have columns on tables.',
+    title: 'Authentic Models',
+    description: 'All models will be refreshed in the near future.',
   },
   {
-    title: 'Mathematical Features',
-    description: 'Lets you add, subtract, multiply, or divide points.',
+    title: 'Semi Truck',
+    description: 'Semi Truck is being planned.',
   },
   {
-    title: 'Total Scores',
-    description: 'Shows you the total points of the table.',
+    title: 'Navigation System',
+    description: 'Will let user punch in an address, and the GPS will automatically plot the fastest route.',
   },
   {
-    title: 'Audits',
-    description: 'Shows you the changes on the board.',
+    title: 'Navigation on Autopilot',
+    description: 'Lets the car follow the navigation route on Autopilot.',
   },
   {
-    title: 'Shorten Commands',
-    description: 'Lets you type in shorter commands instead of typing the whole command.',
+    title: 'Autopark',
+    description: 'Lets the car park on its own when it detects a possible parking spot.',
   },
   {
-    title: 'Auto Completion',
-    description: 'Members will be marked as completed when they reach a certain point.',
+    title: 'Smart Summon',
+    description: 'Automatically call your car from its parking spot.',
   },
   {
-    title: 'Admin/Scorekeeper Options',
-    description: 'Lets you turn off the Admin permission or Scorekeeper role requirement.',
+    title: 'Full Self-Driving',
+    description: 'Will let the car drive on city streets and complicated roads. Additionaly, it will be able to stop at traffic signs and traffic lights.',
   },
   {
-    title: 'Table Filtering',
-    description: 'Lets you change the way the table is sorted, by either letting the points be sorted from least to greaters, greatest to least, A-Z, etc.',
+    title: 'Model Y',
+    description: 'Model Y has been delayed.',
+    status: DELAYED
   },
   {
-    title: 'Confirmations',
-    description: 'Sends confirmation to a certain channel set via settings.',
-  },
-  {
-    title: 'Mass Logging',
-    description: 'Lets you give points to multiple members instead of one by one.',
-  },
-  {
-    title: 'Role Giver',
-    description: 'Gives members a role whenever they reach a certain amount of points.',
+    title: 'Auto Lane Change',
+    description: 'Lets the car automatically change lanes at a push of a button.',
+    status: DELAYED
   }
 ];
 
