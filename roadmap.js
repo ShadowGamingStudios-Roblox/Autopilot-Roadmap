@@ -48,7 +48,7 @@ const PRE_RELEASE = [
 const LONG_TERM = [
   {
     title: 'Adjustable Speed',
-    description: 'Will let drivers control the speed of which the car travels at.',
+    description: 'Lets the driver control the speed of which the car travels at.',
     status: IN_PROGRESS
   },
   {
