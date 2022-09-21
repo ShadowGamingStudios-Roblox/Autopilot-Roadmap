@@ -24,16 +24,6 @@ const PRE_RELEASE = [
     status: DEPLOYED
   },
   {
-    title: 'Model S',
-    description: 'Model S has been added.',
-    status: DEPLOYED
-  },
-  {
-    title: 'Model X',
-    description: 'Model X has been added.',
-    status: DEPLOYED
-  },
-  {
     title: 'Model 3',
     description: 'Model 3 has been added.',
     status: DEPLOYED
@@ -85,6 +75,14 @@ const LONG_TERM = [
   {
     title: 'Semi Truck',
     description: 'Semi Truck is being planned.',
+  },
+  {
+    title: 'Model S',
+    description: 'Model S has been added.',
+  },
+  {
+    title: 'Model X',
+    description: 'Model X has been added.',
   },
   {
     title: 'Navigation System',
