@@ -24,13 +24,48 @@ const PRE_RELEASE = [
     status: DEPLOYED
   },
   {
+    title: 'Model S',
+    description: 'Model S has been added.',
+    status: DEPLOYED
+  },
+  {
     title: 'Model 3',
     description: 'Model 3 has been added.',
     status: DEPLOYED
   },
   {
+    title: 'Model X',
+    description: 'Model X has been added.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Model Y',
+    description: 'Model Y has been added.',
+    status: DEPLOYED
+  },
+  {
     title: 'Cybertruck',
     description: 'Cybertruck has been added.',
+    status: DEPLOYED
+  },
+  {
+    title: 'ATV',
+    description: 'ATV has been added.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Roadster',
+    description: 'Roadster has been added.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Semi Truck',
+    description: 'Semi Truck has been added.',
+    status: DEPLOYED
+  },
+  {
+    title: 'Authentic Models',
+    description: 'All models will be refreshed in the near future.',
     status: DEPLOYED
   }
 ];
@@ -42,23 +77,14 @@ const LONG_TERM = [
     status: IN_PROGRESS
   },
   {
-    title: 'Roadster',
-    description: 'Roadster is in progress.',
+    title: 'City Map',
+    description: 'Will be adding a city for players to explore.',
     status: IN_PROGRESS
-  },
-  {
-    title: 'Model Y',
-    description: 'Model Y has been delayed.',
-    status: DELAYED
   },
   {
     title: 'Auto Lane Change',
     description: 'Lets the car automatically change lanes at a push of a button.',
     status: DELAYED
-  },
-  {
-    title: 'City Map',
-    description: 'Will be adding a city for players to explore.',
   },
   {
     title: 'Road GUI',
@@ -67,22 +93,6 @@ const LONG_TERM = [
   {
     title: 'Active Steering Wheel',
     description: 'The Steering Wheel will move based upon the wheels trajectory.',
-  },
-  {
-    title: 'Authentic Models',
-    description: 'All models will be refreshed in the near future.',
-  },
-  {
-    title: 'Semi Truck',
-    description: 'Semi Truck is being planned.',
-  },
-  {
-    title: 'Model S',
-    description: 'Model S has been added.',
-  },
-  {
-    title: 'Model X',
-    description: 'Model X has been added.',
   },
   {
     title: 'Navigation System',
